@@ -289,7 +289,7 @@ header {
     font-weight: 700;
     margin: 0 0 10px 10px;
     padding: 1rem 1rem;
-    transition: background-color 1.2s ease-out;
+    transition:all 0.3s;
 }
 
 .amount-box:hover {
@@ -303,12 +303,12 @@ header {
     border: none;
     padding: 15px;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 14px;
     font-weight: 700;
     margin: 0 0 10px 10px;
-    padding: 1rem 1rem;
-    transition: background-color 1.2s ease-out;
+    padding: 1rem 2rem;
+    transition: all 0.3s;
 }
 
 .support-button button:hover {
@@ -389,13 +389,6 @@ header {
     padding: 20px;
 }
 
-/* .donation-cards-start {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-} */
-
 .donation-card {
     height: auto;
     border-radius: 10px;
@@ -425,9 +418,10 @@ header {
     border: none;
     padding:6px 25px;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
+    width: 100%;
 }
 
 .donation-card:hover {
